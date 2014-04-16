@@ -1,10 +1,10 @@
 {
   "name": "Metro-UI-CSS",
-  "version": "2.0.19",
+  "version": "2.0.24",
   "main": [
     "./css/metro-bootstrap.css",
     "./css/metro-bootstrap-responsive.css",
-    "./min/metro.min.js",
+    "./js/*",
     "./fonts/iconFont.eot",
     "./fonts/iconFont.svg",
     "./fonts/iconFont.ttf",
