@@ -47,6 +47,7 @@
                 case 'slide': $(el).slideDown('fast'); break;
                 default: $(el).hide();
             }
+            this.element.trigger('onOpen');
             this._trigger("onOpen", null, el);
         },
 
@@ -56,6 +57,7 @@
                 case 'slide': $(el).slideUp('fast'); break;
                 default: $(el).hide();
             }
+            this.element.trigger('onClose');
             this._trigger("onClose", null, el);
         },
 
