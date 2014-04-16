@@ -220,7 +220,7 @@
     $.Metro.initAll = function(area) {
         $.Metro.initAccordions(area);
         $.Metro.initButtonSets(area);
-        $.Metro.initCalendars(area);
+        // $.Metro.initCalendars(area);
         $.Metro.initCarousels(area);
         $.Metro.initCountdowns(area);
         $.Metro.initDatepickers(area);
