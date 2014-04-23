@@ -1,5 +1,6 @@
 /*
  * Devices
+ * min 1920
  * min 1200
  * min 1024
  * max 1024
@@ -70,6 +71,24 @@
     width: 940px !important;
   }
 }
+/* Extra large desktop */
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 70%;
+  }
+  .no-large {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .on-large {
+    display: block !important;
+    visibility: visible !important;
+  }
+  .container {
+    width: 1640px !important;
+  }
+}
+
 /* Large desktop */
 @media screen and (min-width: 1200px) {
   html {
@@ -99,7 +118,7 @@
     visibility: visible !important;
   }
   .container {
-    width: 940px !important;
+    width: 1004px !important;
   }
 }
 /* tablet portrait */
