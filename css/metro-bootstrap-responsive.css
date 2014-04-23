@@ -71,24 +71,6 @@
     width: 940px !important;
   }
 }
-/* Extra large desktop */
-@media screen and (min-width: 1440px) {
-  html {
-    font-size: 70%;
-  }
-  .no-large {
-    display: none !important;
-    visibility: hidden !important;
-  }
-  .on-large {
-    display: block !important;
-    visibility: visible !important;
-  }
-  .container {
-    width: 1280px !important;
-  }
-}
-
 /* Large desktop */
 @media screen and (min-width: 1200px) {
   html {
@@ -106,6 +88,25 @@
     width: 1140px !important;
   }
 }
+
+/* Extra large desktop */
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 70%;
+  }
+  .no-large {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .on-large {
+    display: block !important;
+    visibility: visible !important;
+  }
+  .container {
+    width: 1400px !important;
+  }
+}
+
 /* tablet landscape*/
 @media only screen and (max-width: 1024px) {
   .no-tablet-landscape,
