@@ -1,6 +1,6 @@
 /*
  * Devices
- * min 1920
+ * min 1440
  * min 1200
  * min 1024
  * max 1024
@@ -72,7 +72,7 @@
   }
 }
 /* Extra large desktop */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1440px) {
   html {
     font-size: 70%;
   }
@@ -85,7 +85,7 @@
     visibility: visible !important;
   }
   .container {
-    width: 1640px !important;
+    width: 1280px !important;
   }
 }
 
