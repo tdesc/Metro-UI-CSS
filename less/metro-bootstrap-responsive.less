@@ -42,6 +42,7 @@
     .container-phone4 {width: @containerPhoneSize4 !important;}
     .container-tablet {width: @containerTabletSize !important;}
     .container-large {width: @containerLargeSize !important;}
+    .container-extralarge {width: @containerExtraLargeSize !important;}
 
     .container-phone {
         padding: 0 10px;
@@ -83,6 +84,21 @@
     .container {
         #responsive-utils > .container-large;
     }
+}
+
+@media screen and (min-width: 1440px) {
+    html {font-size: 70%;}
+    .no-large {
+        #responsive-utils > .hide-element;
+    }
+    .on-large {
+        #responsive-utils > .show-element;
+    }
+    .container {
+        #responsive-utils > .container-extralarge;
+    }
+
+    @gridSize:              @containerExtraLargeSize;
 }
 
 /* tablet landscape*/
