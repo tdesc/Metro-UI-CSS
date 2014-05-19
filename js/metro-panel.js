@@ -13,18 +13,20 @@
                 header = element.children('.panel-header'),
                 content = element.children('.panel-content');
 
-            header.on('click', function(){
-                content.slideToggle(
-                    'fast',
-                    function(){
-                        element.toggleClass('collapsed');
-                        if (element.hasClass('collapsed')) {
-                            o.onCollapse();
-                        } else {
-                            o.onExpand();
+            header.on('click', function(e){
+                if(this == e.target) {
+                    content.slideToggle(
+                        'fast',
+                        function(){
+                            element.toggleClass('collapsed');
+                            if (element.hasClass('collapsed')) {
+                                o.onCollapse();
+                            } else {
+                                o.onExpand();
+                            }
                         }
-                    }
-                );
+                    );
+                }
             });
         },
 
