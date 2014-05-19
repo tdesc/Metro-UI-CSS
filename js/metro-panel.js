@@ -14,6 +14,7 @@
                 content = element.children('.panel-content');
 
             header.on('click', function(e){
+                console.log('header on click' + e.target)
                 if(this == e.target) {
                     content.slideToggle(
                         'fast',
