@@ -88,9 +88,6 @@
     "./fonts/iconFont.svg",
     "./fonts/iconFont.ttf",
     "./fonts/iconFont.woff"
-  ],
-  "dependencies": {
-    "jquery": ">= 1.9.0"
-  }
+  ]
 }
 
